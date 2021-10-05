@@ -1,0 +1,129 @@
+html {
+    box-sizing: borber-box;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+  
+  html body {
+    padding: 0;
+    margin: 0;
+    max-height: 100vh;
+    width: 100%;
+  }
+  
+  body {
+    font-family: "Nunito Sans", sans-serif;
+  }
+  
+  .topmost {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    background-color: rgb(85, 172, 238);
+    max-height: 1rem;
+  }
+  .top {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    height: 100%;
+    width: 70%;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  img {
+    position: relative;
+    top: 20px;
+    bottom: 40px;
+    left: 43%;
+  }
+  #text {
+    color: rgb(85, 172, 238);
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+  }
+  #text-two {
+    position: relative;
+    text-align: center;
+  }
+  
+  .fa {
+    padding: 10px;
+    text-align: center;
+    font-size: 60px;
+    width: 15px;
+    color: white;
+    background: #3b5998;
+    text-decoration: none;
+    border-radius: 20%;
+  }
+  
+  .about-text {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 1rem;
+    height: 50%;
+    background-color: rgb(85, 172, 238);
+    max-height: 10rem;
+  }
+  h1 + p {
+    position: relative;
+    text-align: left;
+    width: 100%;
+    height: 10%
+    margin: 2rem;
+    padding: 1rem 2rem;
+  }
+  #content {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid #ffffff;
+    background-color: rgb(85, 172, 238);
+  }
+  #design {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid #ffffff;
+    background-color: rgb(85, 172, 238);
+  }
+  #food {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid #ffffff;
+    background-color: rgb(85, 172, 238);
+    align-items: center;
+  }
+  
+  .services {
+    display: flex;
+    justify-items: space-around;
+    padding: 1rem 1rem;
+    margin: 20px;
+    align-items: center;
+  }
+  .end {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 1rem;
+    height: 50%;
+    background-color: rgb(85, 172, 238);
+    max-height: 10rem;
+  }
+  
